@@ -12,9 +12,6 @@ class conjur::client (
 				
 	if ($osfamily == "RedHat") {
 
-		notify {"downloading Conjur":
-			message => "URL=$source.rpm",
-		} ->			
 	 	package { conjur:
     			provider => rpm,
 			ensure => "$version-1.el6",
