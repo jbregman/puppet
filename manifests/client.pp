@@ -17,6 +17,7 @@ class conjur::client (
 		} ->			
 	 	package { conjur:
     			provider => rpm,
+			ensure => $version,
     			source => "$source.el6.x86_64.rpm",
 		}
 	} else {
