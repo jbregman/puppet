@@ -1,6 +1,6 @@
 {
   "name": "conjur-conjur",
-  "version": "0.0.4",
+  "version": "0.1.0",
   "author": "Conjur Inc.",
   "summary": "Conjur",
   "license": "Apache 2.0",
@@ -10,7 +10,7 @@
   "operatingsystem_support": [
     {
     "operatingsystem":"RedHat",
-    "operatingsystemrelease":[ "5.0", "6.0" ]
+    "operatingsystemrelease":[ "5.0", "6.0" ,"7.0"]
     }
   ],
   "dependencies": [
